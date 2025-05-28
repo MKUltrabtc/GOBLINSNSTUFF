@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: 'Arial', sans-serif;
+      color: #4d5047;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border: 2px solid #b5cea3;
+      padding: 20px;
+    }
+
+    .header {
+      font-size: 3em;
+      color: #9bb07f;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: #5c624c;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #9bab89;
+    }
+
+    .intro {
+      background: #eef1ea;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    .intro img {
+      float: left;
+      margin-right: 15px;
+      width: 100px;
+    }
+
+    .update-box {
+      background-color: #d0dac6;
+      border: 2px dashed #8a9878;
+      padding: 1em;
+      margin: 2em 0;
+      font-size: 1em;
+      color: #69815d;
+    }
+
+    footer {
+      font-size: 0.9em;
+      margin-top: 30px;
+      color: #777;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">fuchi.neocities.org</div>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="https://fuchi.neocities.org/webmaster">Webmaster</a>
+      <a href="https://fuchi.neocities.org/blog">Blog</a>
+      <a href="https://fuchi.neocities.org/collection/hirono">Hirono</a>
+      <a href="https://fuchi.neocities.org/shrine/maki">Maki Shrine</a>
+      <a href="https://fuchi.neocities.org/toybox">Toybox</a>
+      <a href="https://fuchi.neocities.org/medialog">Media Log</a>
+    </nav>
+
+    <!-- Intro -->
+    <div class="intro">
+      <img src="https://fuchi.neocities.org/graphics/home/boxboy.png" alt="Boxboy">
+      <p>Welcome to <strong style="color:#8a9878;">fuchi</strong>: my personal hobby-passion project. This site is green, botanical, and gay. Best viewed on desktop. <a href="https://fuchie.atabook.org/">Thank you!</a></p>
+    </div>
+
+    <!-- Audio (Wix may not autoplay) -->
+    <audio controls>
+      <source src="https://dl.dropbox.com/scl/fi/tubveb5ouaupnq27ofo1g/The-Mar-as-ABQ.mp3?rlkey=gjzqt0pp7tr913t1hgu2dbyvj&st=j5qvqahe&dl=0" type="audio/mpeg">
+    </audio>
+
+    <!-- YouTube Embed -->
+    <iframe src="https://www.youtube.com/embed/cXX5_LbPW44" allowfullscreen></iframe>
+
+    <!-- Updates -->
+    <div class="update-box">
+      <strong>5/18/2025:</strong> New blog entry. Tweaking site design.<br><br>
+      <strong>5/17/2025:</strong> Uploaded Food Page. Still experimenting with layout.<br><br>
+      <strong>4/24/2025:</strong> Added Media Log. Will continue updates soon.<br>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      💌 Sign my <a href="https://fuchie.atabook.org/">guestbook</a> |
+      <a href="https://neocities.org/site/fuchi">Neocities</a> |
+      <a href="https://fuchi.neocities.org/archive">Archive</a><br>
+      © fuchi.neocities.org 2022–2025
+    </footer>
+  </div>
+</body>
+</html>
